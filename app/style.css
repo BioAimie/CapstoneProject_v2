@@ -1,0 +1,108 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    color: magenta;
+    font-size: 400%;
+}
+
+body {
+    background-color: black;
+}
+
+#appDesc.shiny-text-output.shiny-bound-output {
+    
+    color: white;
+    font-family: sans-serif;
+    padding: 2% 5% 2% 5%;
+    font-size: 150%;
+    font-weight: 'bolder';
+}
+
+#text.form-control.shiny-bound-input {
+    padding-left: 5%;
+    color: blue;
+    background-color: lightgrey;
+}
+
+.div.row {
+    height: 800px;
+}
+
+div.form-group.shiny-input-container {
+    width: 100%;
+    padding-left: 5%;
+}
+
+div.form-group.shiny-input-container h3 {
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    color: magenta;
+    padding-left: 5%;
+}
+
+button.btn.btn-primary {
+    color: black;
+    background-color: magenta;
+    border: none;
+    float: left;
+    width: 20%;
+    margin-left: 40%;
+    font-family: 'Lobster', cursive;
+    font-weight: 'bolder';
+    font-size: 125%;
+}
+
+div#predictedText.shiny-html-output.shiny-bound-output {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-left: 5%;
+    height: 100px;
+    border-radius: 2px;
+}
+
+
+label.control-label {
+    font-family: 'Lobster';
+    color: white;
+    padding-top: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+/*
+#chartOutput.shiny-html-output.shiny-bound-output {
+    padding-top: 5%;
+    margin-left: -2%;
+}
+
+#tableOutput.shiny-html-output.shiny-bound-output {
+    margin-left: -2%;
+    font-family: sans-serif;
+    background-color: white;
+    color: slategray;
+    border-color: white;
+    width: 800px;
+}
+
+#tableOutput.shiny-html-output.shiny-bound-output th {
+    font-weight: bold;
+    color: coral;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#tableOutput.shiny-html-output.shiny-bound-output td {
+    font-family: sans-serif;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 200px;
+}
+*/
