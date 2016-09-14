@@ -7,13 +7,14 @@ library(wordcloud)
 library(RColorBrewer)
 
 # source the data used by the app
-# one.gram.freq <- read.csv('oneGramTrim.csv')
-# two.gram.freq <- read.csv('twoGramTrim.csv')
-# three.gram.freq <- read.csv('threeGramTrim.csv')
-# four.gram.freq <- read.csv('fourGramTrim.csv')
-# 
-# # source the predictText algorithm
-# source('predictText.R')
+one.gram.freq <- read.csv('oneGramTrim.csv')
+two.gram.freq <- read.csv('twoGramTrim.csv')
+three.gram.freq <- read.csv('threeGramTrim.csv')
+four.gram.freq <- read.csv('fourGramTrim.csv')
+
+# source the predictText algorithm
+source('predictText.R')
+source('wordCloudTerms.R')
 
 # create the server object
 shinyServer(function(input, output) {
