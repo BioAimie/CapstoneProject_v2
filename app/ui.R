@@ -20,9 +20,9 @@ shinyUI(fluidPage(
            uiOutput('predictedText', class = 'outputText')
     ),
     
-    # add a word cloud here eventually!
+    # add a word cloud here
     column(4,
-           plotOutput('plot'))
+           plotOutput('plot')
+    )
   )
-  
-)) 
+))

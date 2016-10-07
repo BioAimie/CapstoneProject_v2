@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-setwd('~/Coursera/CapstoneProject/')
-
 # load the libraries that are needed
 library(ggplot2)
 
